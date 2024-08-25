@@ -20,11 +20,12 @@ constexpr int LG_LvFATAL = 7;
 #define DEBUG_LOG() std::cout << "You can't use 'DEBUG_LOG' in release mode!" << std::endl;
 #endif DEBUG_MODE
 #include <iostream>
-
+#include <vector>
+#include <fstream>
 
 namespace logger {
 
-
+		
 
 		// setting the log level to be info by default.
 
@@ -68,6 +69,15 @@ namespace logger {
 		// fatal level
 
 		void LGFatalLevel(std::string p_oup);
+
+		/*
+		if you wanna save something inside of a file.
+		*/
+
+
+
+		// for storing the output inside of a *.log file.
+		void storeLog(const char* filename);
 }
 
 
