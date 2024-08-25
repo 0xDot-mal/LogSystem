@@ -46,3 +46,6 @@ Quick explanation `LGInit();` Initlialize the log level to a certain level you c
 	LGFatalLevel("AAAAA!");	
 ```
 that's not going to working because you're initializing it as info level at first then you're trying to log it as a fatal.
+
+### EASY
+you can  use the LogSystem.lib instead just makesure to get the whole directory and structure **NO EXPLANATION I NEED SLEEPING💤💤**
