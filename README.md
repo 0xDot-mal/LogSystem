@@ -2,9 +2,9 @@
 
 ## Quick Guide
 
-1 - clone the repository
-2 - rename 'LogSystem.cpp' to *.h or *.hpp
-3 - include it in you're program.
+-  clone the repository
+ - rename 'LogSystem.cpp' to *.h or *.hpp
+  - include it in you're program.
 
 ### Basic hello example
 ```cpp
