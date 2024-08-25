@@ -40,7 +40,7 @@ int main() {
 }
 ```
 Quick explanation `LGInit();` Initlialize the log level to a certain level you can use numbers from 0 to 7 or for a simple readable way use the constant expression that is declared on 'LogSystem.h'(and 'LogSystem.cpp')
-`LGInfoLevel("Some text");` Logs the given string value(I should've used a template but I'm so tired.) Note that you can't set the loglevel to something different then the function calling:
+`LGInfoLevel("Some text");` Logs the given string value(I should've used a template but I'm so tired.) Note that you can't set the log level to something different then the function calling:
 ```cpp
 	LGInit(LG_LvINFO); 
 	LGFatalLevel("AAAAA!");	
