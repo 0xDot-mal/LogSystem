@@ -1,5 +1,7 @@
+# Docs Coming Soon
+
+=======
 # Docs Coming soon
-###
 ## Quick Guide
 
 -  clone the repository
