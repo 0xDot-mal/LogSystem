@@ -1,5 +1,7 @@
 # Docs Coming Soon
 
+=======
+# Docs Coming soon
 ## Quick Guide
 
 -  clone the repository
@@ -49,3 +51,6 @@ that's not going to work because you're initializing it as info level at first t
 
 ### EASY
 you can  use the LogSystem.lib instead **NO EXPLANATION I NEED SLEEPING💤💤**
+
+## IMPORTANT
+Use the [Beta branch](https://github.com/0xDot-mal/LogSystem/tree/LogSystem-v1.0-beta.1) instead of the master branch!
