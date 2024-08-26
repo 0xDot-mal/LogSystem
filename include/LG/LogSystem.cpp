@@ -20,7 +20,7 @@ namespace logger {
 	*/
 	// info level
 
-	void LGInfoLevel(const std::string p_oup) {
+	void LGInfoLevel(const std::string& p_oup) {
 		if (LG_SetLevel == LG_LvINFO) {
 			std::cout << dye::yellow(levels[0]) << dye::yellow(p_oup);
 		}
@@ -28,7 +28,7 @@ namespace logger {
 
 	// debug level
 
-	void LGDebugLevel(const std::string p_oup) {
+	void LGDebugLevel(const std::string& p_oup) {
 		if (LG_SetLevel == LG_LvDEBUG) {
 			std::cout << dye::green(levels[1]) << dye::green(p_oup);
 		}
@@ -36,7 +36,7 @@ namespace logger {
 
 	// warn level
 
-	void LGWarnLevel(const std::string p_oup) {
+	void LGWarnLevel(const std::string& p_oup) {
 		if (LG_SetLevel == LG_LvWARNING) {
 			std::cout << dye::red_on_light_yellow(levels[2]) << dye::red_on_light_yellow(p_oup);
 		}
@@ -44,7 +44,7 @@ namespace logger {
 
 	// deprecated level
 
-	void LGDeprecLevel(const std::string p_oup) {
+	void LGDeprecLevel(const std::string& p_oup) {
 		if (LG_SetLevel == LG_LvDEPRRECATED) {
 			std::cout << dye::blue(levels[3]) << dye::blue(p_oup);
 		}
@@ -52,7 +52,7 @@ namespace logger {
 
 	// error level
 
-	void LGErrorLevel(const std::string p_oup) {
+	void LGErrorLevel(const std::string& p_oup) {
 		if (LG_SetLevel == LG_LvERROR) {
 			std::cout << dye::red(levels[4]) << dye::red(p_oup);
 		}
@@ -60,7 +60,7 @@ namespace logger {
 
 	// critical level
 
-	void LGCriticLevel(const std::string p_oup) {
+	void LGCriticLevel(const std::string& p_oup) {
 		if (LG_SetLevel == LG_LvCRITICAL) {
 			std::cout << dye::light_red(levels[5]) << dye::light_red(p_oup);
 		}
@@ -68,7 +68,7 @@ namespace logger {
 
 	// threat level
 
-	void LGThreatLevel(const std::string p_oup) {
+	void LGThreatLevel(const std::string& p_oup) {
 		if (LG_SetLevel == LG_LvTHREAT) {
 			std::cout << dye::purple(levels[6]) << dye::purple(p_oup);
 		}
@@ -76,7 +76,7 @@ namespace logger {
 
 	// fatal level
 
-	void LGFatalLevel(std::string p_oup) {
+	void LGFatalLevel(std::string& p_oup) {
 		if (LG_SetLevel == LG_LvFATAL) {
 			std::cout << dye::black_on_red(levels[7]) << dye::black_on_red(p_oup);
 		}
