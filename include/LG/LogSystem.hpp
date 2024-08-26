@@ -39,35 +39,35 @@ namespace logger {
 
 	// info level
 
-	void LGInfoLevel(std::string p_oup);
+	void LGInfoLevel(std::string& p_oup);
 
 	// debug level
 
-	void LGDebugLevel(std::string p_oup);
+	void LGDebugLevel(std::string& p_oup);
 
 	// warn level
 
-	void LGWarnLevel(std::string p_oup);
+	void LGWarnLevel(std::string& p_oup);
 
 	// deprecated level
 
-	void LGDeprecLevel(std::string p_oup);
+	void LGDeprecLevel(std::string& p_oup);
 
 	// error level
 
-	void LGErrorLevel(std::string p_oup);
+	void LGErrorLevel(std::string& p_oup);
 
 	// critical level
 
-	void LGCriticLevel(std::string p_oup);
+	void LGCriticLevel(std::string& p_oup);
 
 	// threat level
 
-	void LGThreatLevel(std::string p_oup);
+	void LGThreatLevel(std::string& p_oup);
 
 	// fatal level
 
-	void LGFatalLevel(std::string p_oup);
+	void LGFatalLevel(std::string& p_oup);
 
 	/*
 	if you wanna save something inside of a file.
