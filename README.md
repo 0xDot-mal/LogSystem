@@ -1,4 +1,4 @@
-# Adding docs after 8 hours from uploading the repository(or even more) because I'm tired
+# Docs Coming Soon
 
 ## Quick Guide
 
